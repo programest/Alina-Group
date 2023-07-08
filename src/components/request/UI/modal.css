@@ -1,0 +1,37 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .modal-btn{
+	background-color: rgb(42, 42, 190);
+	color: white;
+	padding: 5px 0;
+	width: 200px;
+	border: 1px solid ;
+	border-radius: 20px;
+  }
+  .-remove-btn{
+	border: none;
+	background-color: rgb(231, 31, 31);
+  }
+  .modal-content {
+	width: 35%;
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+  }
+  
+  .modal h2 {
+	margin-top: 0;
+  }
+  
+  .modal p {
+	margin-bottom: 10px;
+  }
